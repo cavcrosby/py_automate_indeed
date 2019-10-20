@@ -19,7 +19,7 @@ The script has never been tested to apply for jobs. Hence it is unfinished, but 
 **py_indeed.py** is the script that does majority of the work. It is currently configured to use a headless browser to:
  * Login in to Indeed
  * Iterate over each page pulling jobs to apply for
- * Parse for jobs that can be applied for using an Indeed Resume
+ * Parse for jobs that can be applied for using an Indeed resume
  * Attempts to apply to each job
     - Each job could have supplement questions, the questions that the script cannot answer are stored into a database file
  * Continues to until the end of the page, goes to the next page and repeats
