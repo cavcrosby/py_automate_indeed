@@ -1,0 +1,17 @@
+# ignore db files
+*.db
+
+# ignore log files
+scripts/logs/**
+
+# Do not ignore placeholder file in logs
+!scripts/logs/placeholder.txt
+
+# ignore .ini files
+*.ini
+
+# ignore pyc (pyc-cache) files
+*.pyc
+
+# ignore executables for now
+*.exe
