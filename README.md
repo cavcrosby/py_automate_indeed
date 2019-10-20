@@ -21,7 +21,7 @@ The script has never been tested to apply for jobs. Hence it is unfinished, but 
  * Iterate over each page pulling jobs to apply for
  * Parse for jobs that can be applied for using an Indeed Resume
  * Attempts to apply to each job
-  - Each job could have supplement questions, the questions that the script cannot answer are stored into a database file
+    - Each job could have supplement questions, the questions that the script cannot answer are stored into a database file
  * Continues to until the end of the page, goes to the next page and repeats
 
 **py_answer.py** is the script to use for interfacing with questions pulled from py_indeed.
