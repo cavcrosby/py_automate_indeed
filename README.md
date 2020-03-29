@@ -53,7 +53,7 @@ pip install -r requirements.txt
 3. Also edit the app.ini and add values for the fields 'email_address', 'password', 'job_title', and 'location'. **This data is necessary or else py_indeed will not work.**
 - These are needed to sign in into your Indeed account, and to search for the job title you desire in the location.
 
-4. The application will need a Chrome driver to work with. Visit https://docs.seleniumhq.org/download/ and download a chrome driver. For reference, testing has been done with the Chrome driver version 76.0.3809.68. Get the executable and put it into the directory of the application.
+4. The application will need a Chrome driver to work with. Visit https://docs.seleniumhq.org/download/ and download a chrome driver. For reference, testing has been done with the Chrome driver version 76.0.3809.68. Get the executable and put it into the root directory of the application (../py_automate_indeed).
 
 5. Finally, install Google Chrome https://www.google.com/chrome/.
 
